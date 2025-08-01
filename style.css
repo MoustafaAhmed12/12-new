@@ -21,6 +21,26 @@
   font-family: "Cairo", "Tajawal", "Arial", sans-serif !important;
 }
 
+[dir="ltr"] .sidebar-left #site-content {
+  float: right;
+  width: 71.7%;
+}
+[dir="ltr"] .sidebar-left #sidebar {
+  float: left;
+  width: 23.1%;
+}
+
+/* إذا RTL (العربي)، اعكس الاتجاه */
+
+[dir="rtl"] .sidebar-left #site-content {
+  float: left;
+  width: 71.7%;
+}
+[dir="rtl"] .sidebar-left #sidebar {
+  float: right;
+  width: 23.1%;
+}
+
 /**
   *	Reset Browsers
   * General
@@ -1052,7 +1072,11 @@ body.page #main-content {
   width: 25%;
   float: left;
 }
-.themesflat-row .span_1_of_6 {
+[dir="rtl"] .themesflat-row .span_1_of_6 {
+  width: 50%;
+  float: right;
+}
+[dir="ltr"] .themesflat-row .span_1_of_6 {
   width: 50%;
   float: left;
 }
@@ -1428,9 +1452,6 @@ body.page #main-content {
 }
 /* #site-header .wrap-inner { padding-top: 28.5px; padding-bottom: 28.5px;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; } */
 
-.menu-has-search #site-header #main-nav {
-  right: 28px;
-}
 .menu-has-search #site-header #header-search {
   display: block;
 }
@@ -1505,7 +1526,7 @@ body.page #main-content {
   font-family: "Montserrat", sans-serif;
   display: block;
   font-size: 14px;
-  color: #999;
+  color: #dcd9d9;
   padding: 5px 20px;
   font-weight: 600;
 }
@@ -1522,6 +1543,7 @@ body.page #main-content {
 #main-nav .sub-menu li a:hover,
 #main-nav .sub-menu li.current-item a {
   color: #c93f5a;
+  font-weight: 600;
 }
 
 /* Mobile Menu */
@@ -1736,16 +1758,7 @@ body.page #main-content {
 }
 
 /* Style 2 */
-.header-style-2 #site-header #main-nav {
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  z-index: 99;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+
 .header-style-2 #site-logo {
   margin-left: 6px;
 }
@@ -2621,6 +2634,18 @@ body.page #main-content {
   font-weight: 500;
   display: block;
 }
+
+[dir="rtl"] .widget.widget_list .list-item > a:before {
+  right: 0;
+}
+[dir="rtl"] .widget.widget_list .list-item .text {
+  padding-right: 20px;
+  font-family: "Cairo", "Tajawal", "Arial", sans-serif !important;
+}
+[dir="ltr"] .widget.widget_list .list-item .text {
+  padding-left: 20px;
+}
+
 .widget.widget_list .list-item > a:before {
   content: "";
   position: absolute;
@@ -2633,7 +2658,6 @@ body.page #main-content {
   border-radius: 50%;
 }
 .widget.widget_list .list-item .text {
-  padding-left: 20px;
   display: block;
   overflow: hidden;
 }
@@ -3540,7 +3564,12 @@ body.page #main-content {
 [dir="rtl"] button,
 [dir="rtl"] input[type="button"],
 [dir="rtl"] input[type="reset"],
-[dir="rtl"] input[type="submit"] {
+[dir="rtl"] input[type="submit"],
+[dir="rtl"] body,
+[dir="rtl"] button,
+[dir="rtl"] input,
+[dir="rtl"] select,
+[dir="rtl"] textarea {
   font-family: "Cairo", "Tajawal", "Arial", sans-serif !important;
 }
 

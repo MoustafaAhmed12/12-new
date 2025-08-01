@@ -169,6 +169,56 @@
       "footer-page": "PAGE",
       "footer-blog": "BLOG",
       "footer-contact": "CONTACT",
+
+      // Contact Page
+      "contact-title": "CONTACT US",
+      "contact-subtitle":
+        "Are you interested in finding out how Autora Construction Services can make your project. For more information on our services please contact us.",
+      // INPUTS
+      "input-name": "Name*",
+      "input-email": "Your Email*",
+      "input-phone": "Phone",
+      "input-subject": "Subject",
+      "input-message": "Message*",
+      "input-button": "SEND US",
+
+      info: "INFOMATION",
+
+      name: "DESIGN-BUILD",
+      subTitle:
+        "We develop and understand project expectations and then manage those needs with a design [...]",
+      btn: "DETAILS",
+
+      special_services: "SPECIAL SERVICES",
+      design_build: "DESIGN & BUILD",
+      design_build_desc:
+        "We work to develop and understand project expectations and then manage those needs with a customized, qualified design team. Innovation should happen throughout a project",
+      service_consultant: "SERVICE CONSULTANT",
+      service_consultant_desc:
+        "Through our Design-Build service, we provides a single source of responsibility to the client...",
+      our_services_include: "OUR SERVICES INCLUDE:",
+      interior_design_planning: "Interior Design Planning",
+      colour_finish_consultations: "Colour & Finish Consultations",
+      custom_lighting: "Architectural & Custom Lighting",
+      glass_specifications: "Glass & Acrylic Specifications",
+      this_service_desc:
+        "THIS AWESOME SERVICE BRINGS FULL INTEREST INFORMATION FOR YOUR PURPOSE",
+      download_pdf: "Download .PDF",
+      download_doc: "Download .DOC",
+      contact_us: "CONTACT US FOR DESIGN-BUILD SERVICES TODAY",
+
+      design_build: "Design - Build",
+      construction_manager: "Construction manager",
+      metal_building_services: "Metal building services",
+      preconstruction_services: "Preconstruction services",
+      building_envelopes: "Building envelopes",
+      concrete_structures: "Concrete structures",
+
+      how_can_we_help: "HOW CAN WE HELP ?",
+      description:
+        "Are you interested in finding out how we can make your project. Please email us.",
+
+      get_in_touch: "GET IN TOUCH",
     },
     ar: {
       // Navigation
@@ -340,6 +390,54 @@
       "footer-page": "الصفحة",
       "footer-blog": "المدونة",
       "footer-contact": "الاتصال",
+
+      // Contact Page
+      "contact-title": "اتصل بنا",
+      "contact-subtitle":
+        "هل ترغب في معرفة كيف يمكننا أن نساهم في نجاح مشروعك؟ يرجى التواصل معنا.",
+      //inputs
+      "input-name": "الاسم",
+      "input-email": "البريد الإلكتروني",
+      "input-phone": "الهاتف",
+      "input-message": "الرسالة",
+      "input-subject": "الموضوع",
+      "input-required": "هذا الحقل مطلوب",
+      "input-invalid": "البريد الإلكتروني غير صالح",
+      "input-button": "إرسال",
+
+      info: "معلومات",
+
+      name: "محمد حسن",
+      subTitle:
+        "هل ترغب في معرفة كيف يمكننا أن نساهم في نجاح مشروعك؟ يرجى التواصل معنا",
+      btn: "تفاصيل",
+
+      special_services: "الخدمات الخاصة",
+      design_build: "تصميم وبناء",
+      design_build_desc:
+        "نعمل على تطوير وفهم توقعات المشروع ثم ندير هذه الاحتياجات بفريق تصميم مؤهل ومخصص. يجب أن يحدث الابتكار طوال المشروع",
+      service_consultant: "مستشار الخدمة",
+      service_consultant_desc:
+        "من خلال خدمة التصميم والبناء، نوفر مصدرًا واحدًا للمسؤولية تجاه العميل...",
+      our_services_include: "تشمل خدماتنا:",
+      interior_design_planning: "تخطيط التصميم الداخلي",
+      colour_finish_consultations: "استشارات الألوان والتشطيبات",
+      custom_lighting: "الإضاءة المعمارية والمخصصة",
+      glass_specifications: "مواصفات الزجاج والأكريليك",
+      this_service_desc: "تقدم هذه الخدمة الرائعة معلومات كاملة لأغراضك",
+      download_pdf: "تحميل ملف .PDF",
+      download_doc: "تحميل ملف .DOC",
+      contact_us: "تواصل معنا للحصول على خدمات التصميم والبناء اليوم",
+      how_can_we_help: "كيف يمكننا مساعدتك؟",
+      get_in_touch: "تواصل معنا",
+      design_build: "تصميم - بناء",
+      construction_manager: "مدير الإنشاءات",
+      metal_building_services: "خدمات المباني المعدنية",
+      preconstruction_services: "خدمات ما قبل البناء",
+      building_envelopes: "أغلفة المباني",
+      concrete_structures: "الهياكل الخرسانية",
+      description:
+        "هل أنت مهتم بمعرفة كيف يمكننا تنفيذ مشروعك؟ يرجى مراسلتنا عبر البريد الإلكتروني.",
     },
   };
 
