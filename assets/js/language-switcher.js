@@ -44,7 +44,7 @@
       "hero-title12": "WE WILL BE HAPPY",
       "hero-subtitle1": "TO TAKE CARE OF YOUR WORK",
       "hero-title2": "World-Class Quality Standards",
-      "hero-title22": "We deliver results that match your trust.",
+      "hero-title22": "We deliver results that match.",
       "hero-subtitle2": "WE WILL BE HAPPY",
       "hero-title3": "A GLOBAL LEADER IN INFRASTRUCTURE",
       "hero-title32": "WE WILL BE HAPPY",
