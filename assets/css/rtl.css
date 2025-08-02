@@ -405,10 +405,10 @@
   margin: 0px 0 9px 18px;
 }
 
-[dir="rtl"] .widget.widget_tags .tags-list a:before {
+/* [dir="rtl"] .widget.widget_tags .tags-list a:before {
   right: auto;
   left: -12px;
-}
+} */
 
 /* RTL Comments */
 [dir="rtl"] .comment-list article .gravatar {
@@ -447,10 +447,6 @@
 }
 
 /* RTL Pagination */
-[dir="rtl"] .themesflat-pagination ul li {
-  margin-right: 0;
-  margin-left: 5.5px;
-}
 
 [dir="rtl"] .themesflat-pagination .page-prev-next > li {
   border-left: 0;
@@ -587,6 +583,7 @@
 }
 
 [dir="rtl"] .themesflat-image-box.style-1 .heading {
+  text-align: start;
   transform: translateX(-21px);
 }
 
