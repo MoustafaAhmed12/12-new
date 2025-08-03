@@ -56,7 +56,7 @@
         "More than 500 projects completed in Autora - With over 25 years of combined experience, we have the knowledge to serve you.",
       "choose-box1-title": "BEST QUALITY",
       "choose-box1-text":
-        "United Abad Services are committed to meeting the highest quality standards without compromising our safety culture.",
+        "United Abaad Services are committed to meeting the highest quality standards without compromising our safety culture.",
       "choose-box2-title": "ON TIME",
       "choose-box2-text":
         "At our company, we respect the customer’s time and schedule and always complete the projects on timely fashion way.",
@@ -66,9 +66,9 @@
       "about-btn": "ABOUT US",
 
       // About Section
-      "about-title": "WELCOME TO UNITED ABAD",
+      "about-title": "WELCOME TO UNITED Abaad",
       "about-subtitle":
-        "We have successfully completed projects in numerous regions across the country. United Abad Construction Services has a proven track record of:",
+        "We have successfully completed projects in numerous regions across the country. United Abaad Construction Services has a proven track record of:",
       "about-list1":
         "Completing projects on time & Following budget guidelines",
       "about-list2": "Elevated quality of workmanship",
@@ -79,7 +79,7 @@
 
       "services-title": "BEST SERVICES",
       "services-subtitle":
-        "United Abad Construction Services offers a full range of construction services from initial design to project completion.",
+        "United Abaad Construction Services offers a full range of construction services from initial design to project completion.",
       "services-item1": "DESIGN & BUILD",
       "services-item2": "BUILDING ENVELOPES",
       "services-item3": "CONSTRUCTION",
@@ -103,7 +103,7 @@
 
       "service-preconstruction-title": "PRECONSTRUCTION SERVICES",
       "service-preconstruction-desc":
-        "United Abad Construction Services provides the right resources and expertise to evaluate concepts through our leading preconstruction services team.",
+        "United Abaad Construction Services provides the right resources and expertise to evaluate concepts through our leading preconstruction services team.",
       "service-construction-management-title": "CONSTRUCTION MANAGEMENT",
       "service-construction-management-desc":
         "We work closely with architects and designers to understand the project and develop targeted solutions to improve all stages of construction.",
@@ -156,12 +156,12 @@
       "footer-address": "PO BOX 16122 COLLINS STREET",
       "footer-phone": "+613 8376 6284",
       "footer-email": "info@autora.com",
-      "footer-copyright": "Copyright © 2025 United Abad Services",
+      "footer-copyright": "Copyright © 2025 United Abaad Services",
       "footer-recent-posts": "RECENT POSTS",
       "footer-recent-posts-title": "SMART BUILDING WITH CONCRETE SUSTAINABLE",
       "footer-tags": "TAGS",
       "footer-instagram-photos": "INSTAGRAM PHOTOS",
-      "footer-copyright": "Copyright © 2025 United Abad",
+      "footer-copyright": "Copyright © 2025 United Abaad",
       "footer-home": "HOME",
       "footer-about-us": "ABOUT US",
       "footer-services": "SERVICES",
@@ -292,10 +292,11 @@
       "about-title": "مرحبًا بكم في أبعاد المتحدة",
       "about-subtitle":
         "نفذنا بنجاح مشاريع في مناطق متعددة على مستوى الدولة. لدى شركة أبعاد المتحدة سجل حافل في:",
-      "about-list1": "إنجاز المشاريع في الوقت المحدد والالتزام بالميزانية",
-      "about-list2": "جودة تنفيذ عالية ومتميزة",
-      "about-list3": "الوفاء بمتطلبات الموردين المتنوعة",
-      "about-list4": "تطبيق إجراءات ومعايير السلامة بشكل فعال",
+      "about-list1": "خبرة في تطوير المباني التجارية والمكاتب ومواقف السيارات.",
+      "about-list2": "تنفيذ مشروعات بمعايير عالمية من حيث الإبداع والجودة.",
+      "about-list3": "عوائد مجزية للمستثمرين.",
+      "about-list4": "ريادة في تطبيق نظام البناء-التشغيل-التحويل (BOT).",
+      "about-list5": "شراكات مبتكرة تضيف قيمة للمجتمع والمساهمين.",
       "about-button": "تواصل معنا",
 
       "services-title": "أفضل الخدمات",
@@ -343,7 +344,7 @@
 
       "tabs-overview-title": "نظرة عامة",
       "tabs-faqs-title": "الأسئلة الشائعة",
-      "tabs-our-focus": "تركيزنا",
+      "tabs-our-focus": "المهمة",
       "tabs-dedicated": "الالتزام",
       "tabs-committed": "الوفاء بالالتزامات",
       "tabs-content-p":

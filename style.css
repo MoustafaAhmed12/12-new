@@ -1081,11 +1081,11 @@ body.page #main-content {
   float: left;
 }
 [dir="rtl"] .themesflat-row .span_1_of_6 {
-  width: 50%;
+  width: 100%;
   float: right;
 }
 [dir="ltr"] .themesflat-row .span_1_of_6 {
-  width: 50%;
+  width: 100%;
   float: left;
 }
 .themesflat-row .span_1_of_12 {
@@ -1137,7 +1137,7 @@ body.page #main-content {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .overlay-effect.bg-color-accent {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
 }
 
 .data-effect-item:hover .overlay-effect {

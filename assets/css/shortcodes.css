@@ -169,6 +169,14 @@
   padding: 14px 32px;
 }
 
+[dir="rtl"] .m-about {
+  margin: 0 4.5% 0 20%;
+}
+
+[dir="ltr"] .m-about {
+  margin: 0 25% 0 4.5%;
+}
+
 /* Headings
 -------------------------------------------------------------- */
 .themesflat-headings .heading,
@@ -182,7 +190,7 @@
   font-family: "Cairo", "Tajawal", "Arial", sans-serif !important;
 }
 .themesflat-headings .sub-heading {
-  font-weight: 300;
+  font-weight: 500;
   color: #666;
 }
 .themesflat-headings.text-center .sub-heading {
@@ -529,6 +537,7 @@
 }
 .half-background.style-2 {
   background-image: url("../img/bg-services-1-420x330.jpg");
+  height: 330px !important;
 }
 
 @media only screen and (max-width: 991px) {
@@ -549,6 +558,9 @@
 -------------------------------------------------------------- */
 .themesflat-list .inner {
   padding: 4px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  /* color: #ddd !important; */
 }
 .themesflat-list .item {
   display: block;
@@ -1372,7 +1384,7 @@
   background-color: transparent;
 }
 .themesflat-tabs.style-1 .tab-title .item-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: #777;
   margin: 0px 5px 0px 0px;
@@ -1385,14 +1397,20 @@
   padding: 13px 36px 10px 39px;
 }
 .themesflat-tabs.style-1 .tab-title .item-title.active {
-  background-color: #fafafb;
-  color: #2b323a;
+  background-color: #c93f5a;
+  color: #fff;
+  font-weight: 600;
 }
-.themesflat-tabs.style-1 .tab-content .item-content {
+[dir="rtl"] .themesflat-tabs.style-1 .tab-content .item-content {
+  padding: 19px 21px 19px 0px;
+  background-color: #fafafb;
+}
+[dir="ltr"] .themesflat-tabs.style-1 .tab-content .item-content {
   padding: 19px 0px 19px 21px;
   background-color: #fafafb;
 }
 .themesflat-tabs.style-1 .tab-content .item-content p {
+  font-size: 17px;
   margin: 0px 0px 8px 0px;
   line-height: 26px;
   color: #777;
@@ -2483,12 +2501,21 @@
   letter-spacing: -0.15px;
   margin: 0px;
 }
-[dir="rtl"] .flat-content-wrap .item {
-  width: 50%;
+[dir="rtl"] .flat-content-wrap .item.content {
+  width: 65%;
   float: right;
 }
-[dir="ltr"] .flat-content-wrap .item {
-  width: 50%;
+[dir="ltr"] .flat-content-wrap .item.content {
+  width: 65%;
+  float: left;
+}
+
+[dir="rtl"] .flat-content-wrap .item.pdf {
+  width: 35%;
+  float: right;
+}
+[dir="ltr"] .flat-content-wrap .item.pdf {
+  width: 35%;
   float: left;
 }
 .flat-content-wrap .item .pd35 {

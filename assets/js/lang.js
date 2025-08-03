@@ -35,9 +35,9 @@ const languageData = {
     "lang-btn": "ar",
 
     // Hero section
-    "hero-title1": "Building the Future with United Abad",
+    "hero-title1": "Building the Future with United Abaad",
     "hero-subtitle1":
-      "At United Abad, quality and precision are at the heart of everything we build. We offer comprehensive contracting services from planning to execution, turning your vision into a solid reality with unmatched professionalism and high standards.",
+      "At United Abaad, quality and precision are at the heart of everything we build. We offer comprehensive contracting services from planning to execution, turning your vision into a solid reality with unmatched professionalism and high standards.",
   },
   ar: {
     // Navigation
