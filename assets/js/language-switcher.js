@@ -13,6 +13,7 @@
       "nav-pages": "PAGE",
       "nav-blog": "BLOG",
       "nav-contact": "CONTACT",
+      "nav- join": " JOIN US",
 
       // Sub menus
       "nav-about-us": "ABOUT US",
@@ -20,7 +21,8 @@
       "nav-about-team": "ABOUT TEAM",
       "nav-about-careers": "ABOUT CAREERS",
       "nav-services-detail": "SERVICES DETAIL",
-      "nav-projects-full": "PROJECTS FULL WIDTH",
+      "completed-projects": "COMPLETED PROJECTS",
+      "nav-projects-full": "ONGOING PROJECTS",
       "nav-projects-detail": "PROJECTS DETAIL",
       "nav-testimonial": "PAGE TESTIMONIAL",
       "nav-pricing": "PAGE PRICING",
@@ -229,6 +231,7 @@
       "nav-pages": "الصفحات",
       "nav-blog": "المدونة",
       "nav-contact": "اتصل بنا",
+      "nav-join": "انضم إلينا",
 
       // Sub menus
       "nav-about-us": "من نحن",
@@ -236,20 +239,12 @@
       "nav-about-team": "فريق العمل",
       "nav-about-careers": "الوظائف",
       "nav-services-detail": "تفاصيل الخدمات",
-      "nav-projects-full": "المشاريع عرض كامل",
+      "completed-projects": "مشاريع تم التنفيذ",
+      "nav-projects-full": "مشاريع قيد التنفيذ",
       "nav-projects-detail": "تفاصيل المشاريع",
       "nav-testimonial": "آراء العملاء",
       "nav-pricing": "الأسعار",
       "nav-blog-single": "مقال واحد",
-      "nav-contact-1": "اتصل بنا 1",
-      "nav-contact-2": "اتصل بنا 2",
-
-      // Top bar
-      "top-address": "4946 طريق مارمورا، وسط نيويورك",
-      "top-phone": "+61 3 8376 6284",
-      "top-time": "الاثنين-السبت: 8 ص - 6 م",
-      "top-follow": "تابعنا:",
-      "search-placeholder": "بحث...",
 
       // Language button
       "lang-btn": "en",
