@@ -270,7 +270,7 @@
   line-height: 58px;
 }
 .themesflat-headings.style-2 .sub-heading {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   color: #555;
@@ -728,6 +728,24 @@
 
 /* Carousel Control
 -------------------------------------------------------------- */
+
+.owl-dots {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 15px;
+}
+.owl-dot span {
+  width: 14px;
+  height: 14px;
+  background: #ccc;
+  display: block;
+  margin: 5px;
+  border-radius: 50%;
+}
+.owl-dot.active span {
+  background: #333;
+}
+
 .owl-theme .owl-nav,
 .owl-theme .owl-dots {
   display: none;
@@ -740,7 +758,7 @@
   padding-top: 24px;
 }
 .has-arrows .owl-theme .owl-nav {
-  display: block;
+  display: none;
 }
 .has-arrows .owl-theme .owl-nav [class*="owl-"] {
   position: absolute;
@@ -1038,11 +1056,16 @@
 .themesflat-project.style-1 .elm-meta > span {
   padding: 0px 11px;
 }
+[dir="rtl"] .themesflat-project.style-1 .elm-meta > span:before {
+  right: 0;
+}
+[dir="ltr"] .themesflat-project.style-1 .elm-meta > span:before {
+  left: 0;
+}
 .themesflat-project.style-1 .elm-meta > span:before {
   content: "";
   position: absolute;
   top: 50%;
-  left: 0;
   transform: translateY(-50%);
   width: 1px;
   height: 10px;

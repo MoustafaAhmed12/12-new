@@ -506,9 +506,6 @@
 }
 
 /* RTL Blockquotes */
-[dir="rtl"] blockquote {
-  padding: 0 32px 0 0;
-}
 
 [dir="rtl"] blockquote cite {
   right: auto;
