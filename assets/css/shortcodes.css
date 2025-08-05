@@ -2646,15 +2646,16 @@
 .detail-inner-wrap {
   width: 100%;
 }
+.detail-inner-wrap .detail-info {
+  width: 28.7%;
+}
 [dir="rtl"] .detail-inner-wrap .detail-info {
   float: right;
   margin-left: 35.5px;
-  width: 28.7%;
 }
 [dir="ltr"] .detail-inner-wrap .detail-info {
   float: left;
   margin-right: 35.5px;
-  width: 28.7%;
 }
 .detail-inner-wrap .detail-gallery {
   overflow: hidden;
@@ -2718,7 +2719,11 @@
 }
 
 @media only screen and (max-width: 991px) {
-  .detail-inner-wrap .detail-info {
+  .detail-inner-wrap .list-info li.details {
+    justify-content: space-between;
+  }
+  .detail-inner-wrap .detail-info,
+  .detail-inner-wrap .detail-gallery {
     width: 100%;
     float: none;
     margin: 0px;
