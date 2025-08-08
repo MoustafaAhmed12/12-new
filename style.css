@@ -3702,3 +3702,20 @@ body.page #main-content {
 [dir="rtl"] .hentry .post-tags a {
   font-family: "Cairo", "Tajawal", "Arial", sans-serif !important;
 }
+
+.container-icon {
+display: flex;
+align-items: center;
+justify-content: start;
+gap: 8px;
+  padding: 14px 0;
+}
+
+.bg-icon {
+  background-color: #191919 !important;
+  border-radius: 6px;
+}
+.bg-iconc {
+  background-color: white !important;
+  border-radius: 6px;
+}
